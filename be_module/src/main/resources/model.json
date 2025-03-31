@@ -1,6 +1,6 @@
 {
     "definitions": {
-        "UserDto": {
+        "User": {
             "type": "object",
             "properties": {
                 "id": {
@@ -29,8 +29,8 @@
                 "description": {
                     "type": "string"
                 },
-                "user": {
-                    "$ref": "#/definitions/UserDto"
+                "user_id": {
+                    "type": "integer"
                 }
             }
         },

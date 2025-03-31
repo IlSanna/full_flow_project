@@ -119,14 +119,15 @@
 							<generateModelTests>false</generateModelTests>
 							<generateSupportingFiles>false</generateSupportingFiles>
 							<skipOperationExample>true</skipOperationExample>
+							<modelNameSuffix>Dto</modelNameSuffix>
 							<configOptions>
-								<!-- <skipDefaultInterface>true</skipDefaultInterface> -->
+							 	<interfaceOnly>true</interfaceOnly>
+								<skipDefaultInterface>true</skipDefaultInterface>
 								<sourceFolder>src/main/java</sourceFolder>
 								<useSpringBoot3>true</useSpringBoot3>
 							</configOptions>
 						</configuration>
 					</execution>
-					
 				</executions>
 			</plugin>
 		</plugins>

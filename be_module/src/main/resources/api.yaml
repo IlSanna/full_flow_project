@@ -4,7 +4,7 @@ info:
   description: API description in Markdown.
   version: 1.0.0
 
-basePath: /v1
+host: localhost
 schemes:
   - http
   - https
@@ -23,7 +23,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: "model.json#/definitions/UserDto"
+              $ref: "model.json#/definitions/User"
 
   /users/{userId}/tasks:
     get:
